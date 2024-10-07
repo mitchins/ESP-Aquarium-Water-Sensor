@@ -27,8 +27,8 @@ A simple water flow and quality sensor for aquariums based on ESP controller
 The primary software consideration for this use case is ESPHome.
 All of the functions provided are common and turnkey and thus no code is required to be written or debugged.
 
-### Example ESPHome code:
-#### Please note, this code is currently untested until the PCB arrives.
+### Example ESPHome Configuration:
+#### Please note, this configuration is currently untested until the PCB arrives.
 
 ```YAML
 esphome:
