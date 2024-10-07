@@ -1,10 +1,15 @@
 # ESP-Aquarium-Water-Sensor
 
-A simple water flow and quality sensor for aquariums based on ESP controller
+A simple water flow and quality sensor for aquariums based on ESP controller. 
+This board helps measure the quality of the water and its parameteres in real-time, such that alerts and graphs can be setup.
+
+The device is conveniently be powered off usb and provides a wifi connection for ease of connection.
+The core of this device is the ubiquitous Wemos D1 Mini, which is easily available and low cost.
+It has a modular list of external sensors, however if for whatever reason your application does not require it, they can be omitted.
 
 ## Features
 
-* Measure the water flow rate (via YF-S201) )
+* Measure the water flow rate (via YF-S201)
 * Measure total dissolved solids (TDS) for water quality (via KS0429)
 * Measure the internal water temperature (via DS18B20 probe)
 * Respond to switch inputs (reed, contact or button) with 10K pull-up.
@@ -27,6 +32,10 @@ A simple water flow and quality sensor for aquariums based on ESP controller
 The primary software consideration for this use case is ESPHome.
 All of the functions provided are common and turnkey and thus no code is required to be written or debugged.
 
+### ESPHome
+
+The best way to use ESPhome is through Home Assistant, if you have that then goto the add-ons section and install it.
+You can still use ESPHome manually without Home Assistant by following the latest guide [here](https://esphome.io/guides/installing_esphome.html)
 ### Example ESPHome Configuration:
 #### Please note, this configuration is currently untested until the PCB arrives.
 
