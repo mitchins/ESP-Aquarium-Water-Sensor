@@ -140,3 +140,9 @@ status_led:
 #### Back
 
 ![Back rendering](Back.png)
+
+## Defects
+
+| **Issue**         | **Affected**     | **Resolved**    |
+|-----------------------|-------------|-------------------|
+| Reversed polarity on DC Jack J3 | v1.0          | v1.1      |

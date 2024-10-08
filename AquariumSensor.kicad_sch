@@ -1740,22 +1740,10 @@
 		(uuid "09b95157-1203-4403-ad27-4ba3692fb631")
 	)
 	(junction
-		(at 114.3 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a33512b-781d-4f52-9d21-32b8a2b3ae20")
-	)
-	(junction
 		(at 74.93 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29b07797-0ea0-40d3-944d-485e3ced1d82")
-	)
-	(junction
-		(at 26.67 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d4f7e4e-2b4f-4667-9665-35713cc66bb8")
 	)
 	(junction
 		(at 102.87 127)
@@ -1768,6 +1756,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46473544-0a15-4956-a294-171b4cedf4b1")
+	)
+	(junction
+		(at 114.3 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b7259f1-b3be-43f1-a243-84076cd26ea7")
 	)
 	(junction
 		(at 36.83 76.2)
@@ -1804,6 +1798,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9f93c83-015c-46d6-ab78-b4e5003e21ec")
+	)
+	(junction
+		(at 26.67 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a9fa19-1a7a-438f-bd94-f84c38366d6e")
 	)
 	(junction
 		(at 68.58 87.63)
@@ -1894,16 +1894,6 @@
 			(type default)
 		)
 		(uuid "17fa1dc8-908b-45f6-bc96-63a66a9c209c")
-	)
-	(wire
-		(pts
-			(xy 114.3 57.15) (xy 114.3 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1adee688-a5e2-4567-9b0c-e346339e60f3")
 	)
 	(wire
 		(pts
@@ -2037,16 +2027,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 57.15) (xy 114.3 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f7bbeb1-83de-46fa-b612-3f42fa3583cf")
-	)
-	(wire
-		(pts
 			(xy 92.71 91.44) (xy 92.71 90.17)
 		)
 		(stroke
@@ -2157,6 +2137,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 59.69) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6752b698-0e0e-40ec-b7ea-e72436dc13f8")
+	)
+	(wire
+		(pts
 			(xy 62.23 69.85) (xy 62.23 116.84)
 		)
 		(stroke
@@ -2214,16 +2204,6 @@
 			(type default)
 		)
 		(uuid "8508298c-00ea-43a1-a569-f44156139ad9")
-	)
-	(wire
-		(pts
-			(xy 25.4 71.12) (xy 25.4 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86dc3a6f-3d1a-43f1-8574-0f8e9998eb90")
 	)
 	(wire
 		(pts
@@ -2337,6 +2317,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 149.86) (xy 26.67 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cce2e9-c750-44d8-8027-e22e1d784f94")
+	)
+	(wire
+		(pts
 			(xy 77.47 87.63) (xy 77.47 95.25)
 		)
 		(stroke
@@ -2344,6 +2334,16 @@
 			(type default)
 		)
 		(uuid "b2ec4cc6-f67d-4c2b-be39-4ec22ef00aed")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c1de68-3f3d-4bd9-85b7-be166237e86e")
 	)
 	(wire
 		(pts
@@ -2397,16 +2397,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 76.2) (xy 26.67 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0039542-0b73-4aaa-b8fd-dcd513a242b3")
-	)
-	(wire
-		(pts
 			(xy 85.09 82.55) (xy 85.09 116.84)
 		)
 		(stroke
@@ -2427,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 64.77) (xy 123.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e701f7e7-bb4f-41f4-b401-972d1dae7192")
+	)
+	(wire
+		(pts
 			(xy 62.23 116.84) (xy 68.58 116.84)
 		)
 		(stroke
@@ -2434,6 +2434,16 @@
 			(type default)
 		)
 		(uuid "e7d3ed0f-fef8-4e40-bf92-f293a21a2db7")
+	)
+	(wire
+		(pts
+			(xy 26.67 149.86) (xy 26.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e915069d-798d-4db3-835d-c875d3f1f308")
 	)
 	(wire
 		(pts
@@ -3324,7 +3334,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
-		(at 17.78 73.66 0)
+		(at 130.81 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3332,7 +3342,7 @@
 		(dnp no)
 		(uuid "c6e44f72-d74b-450b-becd-d3c6794a080a")
 		(property "Reference" "J3"
-			(at 17.78 64.77 0)
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3350,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 17.78 67.31 0)
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3358,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 19.05 74.676 0)
+			(at 129.54 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 74.676 0)
+			(at 129.54 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3376,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 17.78 73.66 0)
+			(at 130.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
