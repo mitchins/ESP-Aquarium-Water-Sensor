@@ -6109,7 +6109,7 @@
 			(type solid)
 		)
 	)
-	(gr_text_box "Aquarium Sensor v1.0\ngithub.com/mitchins/\nESP-Aquarium-Water-Sensor"
+	(gr_text_box "Aquarium Sensor v1.1\ngithub.com/mitchins/\nESP-Aquarium-Water-Sensor"
 		(start 63 67)
 		(end 86.5 72.5)
 		(layer "B.SilkS")
